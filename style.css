@@ -1,22 +1,114 @@
-*, :after, :before {
-    box-sizing: border-box;
-    border: 0 solid #e2e8f0;
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  border: 0 solid #e2e8f0;
+}
+
+
+:root {
+   font-family: 'Barlow', Georgia, serif;
+   
 }
 
 
 
-.container {
+#root {
     display: flex;
-    flex: 1 1 0%;
+    flex: 1 1;
+}
+
+#root, .menu {
+    height: 100%;
     width: 100%;
-    flex-direction: column;
-    -webkit-box-align: center;
-    align-items: center;
-    box-sizing: border-box;
-    padding: 0px 8vw;
+}
+
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  display: block;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+   scroll-behavior: auto;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.container {
+  display: flex;
+  flex: 1 1 0%;
+  flex-direction: column;
+  padding-top: 17vh;
+  width: 100%;-webkit-text-size-adjust: 100%;
 }
 
 .sıcak {
+    -webkit-text-size-adjust: 100%;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Barlow",sans-serif;
+    box-sizing: border-box;
+    border: 0 solid #e2e8f0;
     flex-direction: column;
     margin-top: 30px;
     width: 100%;
@@ -25,14 +117,21 @@
 
 .title {
     opacity: 0.7;
-    font-family: Barlow, Georgia, serif;
+    font-family: "Barlow", Georgia, serif;
     font-size: 2rem;
     font-weight: 700;
     line-height: 1.2;
     color: rgb(19, 19, 29);
 }
 
+
 .sıcak-menu {
+    -webkit-text-size-adjust: 100%;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Barlow",sans-serif;
+    box-sizing: border-box;
+    border: 0 solid #e2e8f0;
     display: flex;
     flex: 1 1 0%;
     flex-direction: column;
@@ -62,19 +161,27 @@
     flex: 1 1 0%;
     flex-direction: column;
     justify-content: space-around;
-    margin-left: -32rem;
+    margin-left: 1rem;
 }
 
 
 .product {
-    font-family: Barlow, Georgia, serif;
-    font-size: 17px;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    border: 0 solid #e2e8f0;
+    font-family: "Barlow", Georgia, serif;
+    font-size: 1.3rem;
     font-weight: 800;
     line-height: 1.21;
     color: rgb(17, 18, 34);
 }
 
 .description {
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    border: 0 solid #e2e8f0;
     font-family: "Barlow Condensed", Georgia, serif;
     font-size: 0.85rem;
     font-weight: 200;
@@ -89,14 +196,23 @@
 }
 
 .price {
-    font-family: Barlow, Georgia, serif;
-    font-size: 1rem;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    border: 0 solid #e2e8f0;
+    font-family: "Barlow", Georgia, serif;
+    font-size: 1.15rem;
     font-weight: 800;
     line-height: 1.19;
-    color: rgb(204, 19, 66);
+    color: rgb(146, 0, 0);
 }
 
-.caylar {
+.icecekler {
+    -webkit-text-size-adjust: 100%;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Barlow",sans-serif;
+    border: 0 solid #e2e8f0;
     display: flex;
     box-sizing: border-box;
     position: relative;
@@ -104,8 +220,8 @@
     width: 100%;
     height: 140px;
     border-radius: 20px;
-    box-shadow: rgba(207, 0, 0, 0.205) 0px 10px 16px 0px;
-    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(34, 34, 34, 0.685) 0px 10px 16px 0px;
+    background-color: rgb(254,251,234);
     margin: 5px 0px;
 }
 
@@ -115,6 +231,165 @@ img, video {
 }
 
 img {
+    -webkit-text-size-adjust: 100%;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Barlow",sans-serif;
+    color: transparent;
+    box-sizing: border-box;
+    border: 0 solid #e2e8f0;
     border-style: solid;
-    border-radius: 10%;
+    display: block;
+    max-width: 100%;
+    opacity: 1;
+    transition: opacity .3s;
+    flex-shrink: 0;
+    border-radius: 20px;
+    box-shadow: rgba(112, 112, 112, 0.08) 0px 10px 16px 0px;
+    object-fit: cover;
+    width: 120px;
+    height: 120px;
+    min-width: 120px;
+}
+
+.gn-note {
+  opacity: 0.4;
+  font-family: "Barlow Condensed", Georgia, serif;
+  font-size: 1rem;
+  color: rgb(17, 18, 34);
+  margin-bottom: 10px;
+}
+
+.scroller {
+  z-index: 2;
+  top: 8vh;
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  display: flex;
+  flex-direction: row;
+  -webkit-box-align: center;
+  align-items: center;
+  overflow-x: hidden;
+  padding: 35px 0px 25px;
+}
+
+
+.menu {
+    display: flex!important;
+    flex: 1 1 auto;
+}
+
+
+.about-me {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  position: fixed;
+  top: 0px;
+  padding: 1rem 1rem 40px;
+  width: 100vw;
+  min-height: 20vh;
+  max-height: 30vh;
+  z-index: 1;
+  background-image: linear-gradient(205deg, rgb(128, 0, 0) 0%, rgb(254,251,234) 55%);
+}
+
+.logo {	
+	width: 65px;
+	height: 65px;
+	object-fit: contain;
+	z-index: 3;
+	border-radius: 10px;
+	box-shadow: rgba(255, 255, 255, 0) 0px 13px 26px 0px;
+}
+
+
+
+
+
+li {
+	list-style: none;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+.navbar {
+	min-height: 70px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 24px;
+}
+
+.nav-menu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 60px;
+}
+
+.nav-branding {
+	font-size: 2rem;
+}
+
+.nav-link {
+	transition: 0.7s ease;
+}
+
+.nav-link:hover {
+	color: dodgerblue;
+}
+
+.hamburger {
+	display: none;
+	cursor: pointer;
+}
+
+.bar {
+	display: block;
+	width: 25px;
+	height: 3px;
+	margin: 5px auto;
+	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	background-color: white;
+}
+
+@media (max-width: 768px) {
+	.hamburger {
+		display: block;
+	}
+	.hamburger.active .bar:nth-child(2) {
+		opacity: 0;
+	}
+	.hamburger.active .bar:nth-child(1) {
+		transform: translateY(8px) rotate(45deg);
+	}
+	.hamburger.active .bar:nth-child(3) {
+		transform: translateY(-8px) rotate(-45deg);
+	}
+
+	.nav-menu {
+		position: fixed;
+		left: -100%;
+		top: 70px;
+		gap: 0;
+		flex-direction: column;
+		background-color: #262626;
+		width: 100%;
+		text-align: center;
+		transition: 0.3s;
+	}
+
+	.nav-item {
+		margin: 16px 0;
+	}
+
+	.nav-menu.active {
+		left: 0;
+	}
 }
