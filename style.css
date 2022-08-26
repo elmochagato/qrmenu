@@ -356,7 +356,7 @@ a {
 	color: rgb(8, 7, 7);
 	text-decoration: none;
 	text-align: justify;
-	font-size: 1.15rem;
+	font-size: 1.25rem;
 	font-weight: 500;
 }
 
@@ -431,19 +431,20 @@ a {
 	.nav-item {
 		margin-top: 30vw;
 		margin-right: 50vw;
-		margin-left: -10vw;
 		margin-bottom: -20vw;
 		padding: 0%;
 		line-height: 1.5rem;
-		text-align: center;
-
+		text-align: justify;
+		font-family: "Barlow Condensed", Georgia, serif;
+		font-size: 1.5rem;
+		font-weight: 800;
 	}
 
 	.nav-menu.active {
 		left: 50%;
 		bottom: -16px;
 		top: -16px;
-		
+		display: block;
 	}
 }
 
