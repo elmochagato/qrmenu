@@ -240,12 +240,12 @@ img {
 	opacity: 1;
 	transition: opacity 0.3s;
 	flex-shrink: 0;
-	border-radius: 20px;
+	border-radius: 18px;
 	box-shadow: rgba(112, 112, 112, 0.08) 0px 10px 16px 0px;
 	object-fit: cover;
-	width: 90px;
+	width: 80px;
 	height: 80px;
-	min-width: 90px;
+	min-width: 80px;
 }
 
 .gn-note {
