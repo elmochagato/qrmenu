@@ -35,6 +35,10 @@ dd {
 	margin: 0;
 }
 
+body {
+	background-color: antiquewhite;
+}
+
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
 ul[role="list"],
 ol[role="list"] {
@@ -217,7 +221,6 @@ select {
 	padding: 0px 8vw;
 }
 
-
 .icecekler {
 	-webkit-text-size-adjust: 100%;
 	line-height: 1.5;
@@ -232,10 +235,22 @@ select {
 	height: 100px;
 	border-radius: 20px;
 	box-shadow: rgba(34, 34, 34, 0.685) 0px 10px 16px 0px;
-	background: rgb(143,59,59);
-	background: -moz-linear-gradient(49deg, rgba(143,59,59,0.35) 5%, rgba(254,251,234,1) 51%);
-	background: -webkit-linear-gradient(49deg, rgba(143,59,59,0.35) 5%, rgba(254,251,234,1) 51%);
-	background: linear-gradient(49deg, rgba(143,59,59,0.35) 5%, rgba(254,251,234,1) 51%);
+	background: rgb(143, 59, 59);
+	background: -moz-linear-gradient(
+		49deg,
+		rgba(143, 59, 59, 0.35) 5%,
+		rgba(254, 251, 234, 1) 51%
+	);
+	background: -webkit-linear-gradient(
+		49deg,
+		rgba(143, 59, 59, 0.35) 5%,
+		rgba(254, 251, 234, 1) 51%
+	);
+	background: linear-gradient(
+		49deg,
+		rgba(143, 59, 59, 0.35) 5%,
+		rgba(254, 251, 234, 1) 51%
+	);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#8f3b3b",endColorstr="#fefbea",GradientType=1);
 	margin: 8px 0px;
 }
@@ -306,11 +321,23 @@ img {
 	min-height: 20vh;
 	max-height: 30vh;
 	z-index: 1;
-	background: rgb(254,251,234);
-background: -moz-linear-gradient(255deg, rgba(254,251,234,1) 5%, rgba(103,47,47,1) 85%);
-background: -webkit-linear-gradient(255deg, rgba(254,251,234,1) 5%, rgba(103,47,47,1) 85%);
-background: linear-gradient(255deg, rgba(254,251,234,1) 5%, rgba(103,47,47,1) 85%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fefbea",endColorstr="#672f2f",GradientType=1);
+	background: rgb(254, 251, 234);
+	background: -moz-linear-gradient(
+		255deg,
+		rgba(254, 251, 234, 1) 5%,
+		rgba(103, 47, 47, 1) 85%
+	);
+	background: -webkit-linear-gradient(
+		255deg,
+		rgba(254, 251, 234, 1) 5%,
+		rgba(103, 47, 47, 1) 85%
+	);
+	background: linear-gradient(
+		255deg,
+		rgba(254, 251, 234, 1) 5%,
+		rgba(103, 47, 47, 1) 85%
+	);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fefbea",endColorstr="#672f2f",GradientType=1);
 }
 
 .logo {
@@ -394,7 +421,7 @@ a {
 		top: 70px;
 		gap: 0;
 		flex-direction: column;
-		background-color: rgb(196, 104, 104);
+		background-color: rgb(167, 143, 143);
 		width: 100%;
 		text-align: center;
 		transition: 0.3s;
