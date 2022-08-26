@@ -341,12 +341,11 @@ img {
 }
 
 .logo {
-	width: 75px;
-	height: 75px;
+	width: 65px;
+	height: 65px;
 	object-fit: contain;
 	z-index: 3;
 	max-width: 100%;
-	
 }
 
 li {
@@ -430,7 +429,6 @@ a {
 	}
 
 	.nav-item {
-	    gap: 0;
 		margin-top: 30vw;
 		margin-right: 50vw;
 		margin-left: -10vw;
@@ -438,16 +436,14 @@ a {
 		padding: 0%;
 		line-height: 1.5rem;
 		text-align: center;
-		font-family: "Barlow", Georgia, serif;
-	    font-size: 1.2rem;
-	    font-weight: 800;
+
 	}
 
 	.nav-menu.active {
 		left: 50%;
 		bottom: -16px;
 		top: -16px;
-		display: block;
+		
 	}
 }
 
