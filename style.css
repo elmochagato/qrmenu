@@ -201,6 +201,22 @@ select {
 	line-height: 1.19;
 	color: rgb(146, 0, 0);
 }
+.menuler {
+	font-family: "Barlow", Georgia, serif;
+	text-rendering: optimizeSpeed;
+	line-height: 1.5;
+	-webkit-text-size-adjust: 100%;
+	border: 0 solid #e2e8f0;
+	display: flex;
+	flex: 1 1 0%;
+	width: 100%;
+	flex-direction: column;
+	-webkit-box-align: center;
+	align-items: center;
+	box-sizing: border-box;
+	padding: 0px 8vw;
+}
+
 
 .icecekler {
 	-webkit-text-size-adjust: 100%;
@@ -217,7 +233,7 @@ select {
 	border-radius: 20px;
 	box-shadow: rgba(34, 34, 34, 0.685) 0px 10px 16px 0px;
 	background-color: rgb(254, 251, 234);
-	margin: 10px 0px;
+	margin: 8px 0px;
 }
 
 img,
