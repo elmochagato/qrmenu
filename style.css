@@ -357,6 +357,8 @@ a {
 	color: rgb(8, 7, 7);
 	text-decoration: none;
 	text-align: justify;
+	font-size: 1.15rem;
+	font-weight: 400;
 }
 
 .navbar {
