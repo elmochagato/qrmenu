@@ -231,7 +231,11 @@ select {
 	height: 100px;
 	border-radius: 20px;
 	box-shadow: rgba(34, 34, 34, 0.685) 0px 10px 16px 0px;
-	background-color: rgb(254, 251, 234);
+	background: rgb(143,59,59);
+	background: -moz-linear-gradient(49deg, rgba(143,59,59,0.35) 5%, rgba(254,251,234,1) 51%);
+	background: -webkit-linear-gradient(49deg, rgba(143,59,59,0.35) 5%, rgba(254,251,234,1) 51%);
+	background: linear-gradient(49deg, rgba(143,59,59,0.35) 5%, rgba(254,251,234,1) 51%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#8f3b3b",endColorstr="#fefbea",GradientType=1);
 	margin: 8px 0px;
 }
 
