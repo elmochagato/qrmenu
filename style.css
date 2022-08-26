@@ -309,6 +309,7 @@ li {
 a {
 	color: white;
 	text-decoration: none;
+	text-align: justify;
 }
 
 .navbar {
@@ -332,7 +333,6 @@ a {
 
 .nav-link {
 	transition: 0.7s ease;
-	margin-top: auto;
 }
 
 .nav-link:hover {
@@ -384,7 +384,8 @@ a {
 		text-align: center;
 		margin-left: center;
 		margin-right: auto;
-		margin-top: 50%;
+		margin-top: 25%;
+		padding-top: 0;
 	}
 
 	.nav-menu.active {
@@ -397,4 +398,8 @@ a {
 /*
 Direk o tıklanan burgerden ya sağdan aynı boyutlarla gelsin ya da yukardan gelsin
 
+*/
+
+/*
+burgerde satır arası mesafe düzenlenecek
 */
