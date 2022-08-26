@@ -332,6 +332,7 @@ a {
 
 .nav-link {
 	transition: 0.7s ease;
+	margin-top: auto;
 }
 
 .nav-link:hover {
@@ -380,7 +381,10 @@ a {
 	}
 
 	.nav-item {
-		margin: 16px 0;
+		text-align: center;
+		margin-left: center;
+		margin-right: auto;
+		margin-top: 50%;
 	}
 
 	.nav-menu.active {
