@@ -1,1 +1,5 @@
 BURASI YAPILACAKLAR OLSUN
+
+google'a cafe eklenecek
+burger soldan gelecek
+headerın rengi anasayfa ile aynı olacak
