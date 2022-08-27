@@ -2,4 +2,8 @@ BURASI YAPILACAKLAR OLSUN
 
 google'a cafe eklenecek
 burger soldan gelecek
-headerın rengi anasayfa ile aynı olacak
+iletisim sayfası için form oluşturulacak
+adres in arkaplan rengi yazı rengi yazı fontu her sikimi değişecek
+form kısmının her sikimi değişecek düzeltilecek
+
+
