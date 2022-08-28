@@ -646,8 +646,8 @@ ion-icon {
 
 @media (max-height:600px) {
 	.logo {
-	max-width: 80px;
-	max-height: 80px;
+	max-width: 70px;
+	max-height: 70px;
         border: none;
         padding: 0;
 	}
