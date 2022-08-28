@@ -5,5 +5,5 @@ burger soldan gelecek
 iletisim sayfası için form oluşturulacak
 adres in arkaplan rengi yazı rengi yazı fontu her sikimi değişecek
 form kısmının her sikimi değişecek düzeltilecek
-
+Hani twitter falan iconları koymuşsun ya onun gibi yapıp işte tıkladığında animasyonu olan bişiler belki
 
