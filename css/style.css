@@ -328,6 +328,7 @@ img {
 	z-index: 3;
 	max-width: 100%;
         padding: 0;
+        border: none;
 }
 
 li {
