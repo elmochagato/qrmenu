@@ -636,8 +636,7 @@ ion-icon {
 
 @media (max-width:768px) {
 	.adres {
-       max-height: 400px;
-	   max-width: 380px;
+	   max-width: 360px;
 	}
    }
 
@@ -647,5 +646,17 @@ ion-icon {
 	flex-direction: row;
 	justify-content: center;
 	gap: 8vw;
-	
+}
+
+.form {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	margin-top: 5vw;
+	text-align: left;
+	line-height: 1rem;
+	font-family: "Roboto";
+	font-size: 18px;
+	font-weight: 500;
+	max-width: 30vw;
 }
