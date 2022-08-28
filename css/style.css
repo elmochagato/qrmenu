@@ -646,11 +646,10 @@ ion-icon {
 
 @media (max-height:600px) {
 	.logo {
-	max-width: 65px;
-	max-height: 65px;
+	max-width: 80px;
+	max-height: 80px;
         border: none;
         padding: 0;
-        max-width: 100%;
 	}
 }
 
