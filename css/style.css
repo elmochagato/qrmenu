@@ -648,6 +648,9 @@ ion-icon {
 	.logo {
 	max-width: 65px;
 	max-height: 65px;
+        border: none;
+        padding: 0;
+        max-width: 100%;
 	}
 }
 
