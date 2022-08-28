@@ -327,6 +327,7 @@ img {
 	object-fit: contain;
 	z-index: 3;
 	max-width: 100%;
+        padding: 0;
 }
 
 li {
