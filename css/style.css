@@ -640,3 +640,12 @@ ion-icon {
 	   max-width: 380px;
 	}
    }
+
+.social-media {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: center;
+	position: relative;
+	gap: 10vw;
+}
