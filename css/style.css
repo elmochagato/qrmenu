@@ -646,6 +646,6 @@ ion-icon {
 	align-items: center;
 	flex-direction: row;
 	justify-content: center;
-	position: relative;
-	gap: 10vw;
+	gap: 8vw;
+	
 }
