@@ -649,3 +649,9 @@ ion-icon {
 	max-height: 65px;
 	}
 }
+
+@media (max-height:768px) {
+	.form {
+		margin-top: 10vw;
+	}
+}
