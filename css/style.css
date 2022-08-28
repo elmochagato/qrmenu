@@ -470,24 +470,37 @@ Deneme yapıyorum silinebilirler.
 }
 
 .adres {
-	margin-top: -11.7%;
-	float: right;
-	background-color: rgb(0, 0, 0);
-	color: white;
-	text-align: center;
-	width: 600px;
-	height: 480px;
+    font-size: 14px;
+    line-height: 1.75em;
+    box-sizing: border-box;
+    margin-right: auto;
+    margin-left: auto;
+    width: 970px;
+    padding-right: 1px;
+    padding-left: 0;
+    background-color: #fff;
 }
 
 .iframeAdres {
+-webkit-tap-highlight-color: transparent;
+-webkit-text-size-adjust: 100%;
+-webkit-font-smoothing: antialiased;
+font-family: "Open Sans",sans-serif;
+color: #666;
+font-size: 14px;
+line-height: 1.75em;
+margin: 0;
+display: flex;
+
 }
 
 h2 {
-	font-size: 12px;
+	font-size: 14px;
 }
 
 ion-icon {
-	margin-top: 15px;
+	margin-top: 2rem;
+	margin-left: 1px;
 	color: rgb(103, 47, 47);
 	font-size: 40px;
 }
@@ -612,4 +625,18 @@ ion-icon {
 	}
 }
 
+@media (max-width:768px) {
+ .iframeAdres {
+	display: flex;
+	justify-content: center;
+	margin: 0;
+ }
+}
 
+
+@media (max-width:768px) {
+	.adres {
+       max-height: 400px;
+	   max-width: 380px;
+	}
+   }

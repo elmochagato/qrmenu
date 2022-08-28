@@ -5,23 +5,40 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>iletisim</title>
-		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="../css/style.css" />
 	</head>
 	<body>
-		<header>
-			<section class="top-nav">
-				<div><img src="/images/20220826_175915_0000.png" class="logo" /></div>
-				<input id="menu-toggle" type="checkbox" />
-				<label class="menu-button-container" for="menu-toggle">
-					<div class="menu-button"></div>
-				</label>
-				<ul class="menu">
-					<li>Menü</li>
-					<li>Hakkında</li>
-					<li>İletişim</li>
-				</ul>
-			</section>
-		</header>
+		<div id="root">
+			<div class="container">
+				<div class="header">
+					<div class="about-me">
+						<nav class="navbar">
+							<div class="nav-branding">
+								<img src="../images/20220826_175915_0000.png" class="logo" alt="logo">
+							</div>
+			
+							<ul class="nav-menu">
+								<li class="nav-item">
+									<a href="../iletisim/index.html" class="nav-link">İLETİŞİM</a>
+								</li>
+								<li class="nav-item">
+									<a href="#idSogukIcecekler" class="nav-link">Soğuk İçecekler</a>
+								</li>
+								<li class="nav-item">
+									<a href="#idAtıstırmalıklar" class="nav-link">Atıştırmalıklar</a>
+								</li>
+							</ul>
+							<div class="hamburger">
+								<span class="bar"></span>
+								<span class="bar"></span>
+								<span class="bar"></span>
+							</div>
+						</nav>
+					 </div>
+				 </div> 
+				</div>
+			</div>
+			
 
 		<a href="https://www.instagram.com/w.housecoffee/">
 			<ion-icon name="logo-instagram"> </ion-icon>
@@ -51,22 +68,22 @@
 			</form>
 		</div>
 
+
 		<br />
 		<div class="adres">
-			<h2>Yol Tarifi</h2>
-			<iframe
-				class="iframeAdres"
-				width="600"
-				height="400"
-				style="border: 0"
+		<div class="iframeAdres">
+			<iframe 
 				allowfullscreen=""
 				loading="lazy"
+				style="min-width:100%;min-height:480px;border:none;"
 				src="https://maps.google.com/maps?q=38.92038214856224,27.835648598692032&amp;hl=es&amp;z=17&amp;output=embed"
 			>
 			</iframe>
-			<h2>16. Sk. No:22, Ragıp Bey, 45200 Akhisar/Manisa</h2>
 		</div>
+	</div>
+	
 
+	
 		<script
 			type="module"
 			src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
@@ -75,6 +92,6 @@
 			nomodule
 			src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
 		></script>
-		<script src="/iletisim/iletisim.js"></script>
+		<script src="../script.js"></script>
 	</body>
 </html>
