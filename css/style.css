@@ -324,7 +324,6 @@ img {
 .logo {
 	width: 120px;
 	height: 120px;
-	object-fit: contain;
 	z-index: 3;
 	max-width: 100%;
         padding: 0;
