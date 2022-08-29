@@ -306,17 +306,17 @@ img {
 	background: -moz-linear-gradient(
 		255deg,
 		rgba(254, 251, 234, 1) 5%,
-		rgba(103, 47, 47, 1) 85%
+		rgba(128, 0, 0, 1) 85%
 	);
 	background: -webkit-linear-gradient(
 		255deg,
 		rgba(254, 251, 234, 1) 5%,
-		rgba(103, 47, 47, 1) 85%
+		rgba(128, 0, 0, 1) 85%
 	);
 	background: linear-gradient(
 		255deg,
 		rgba(254, 251, 234, 1) 5%,
-		rgba(103, 47, 47, 1) 85%
+		rgba(128, 0, 0, 1) 85%
 	);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fefbea",endColorstr="#672f2f",GradientType=1);
 }
