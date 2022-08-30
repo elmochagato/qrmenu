@@ -23,7 +23,7 @@ document.getElementById("submitButton").onclick = function sendMail() {
 		Host: "smtp.gmail.com",
 		Username: "cafepavese@gmail.com",
 		Password: "qjzowphebbakaplq",
-		To: "denizakkuzu45@gmail.com",
+		To: "cafepavese@gmail.com",
 		From: "cafepavese@gmail.com",
 		Subject: "This is the subject",
 		Body:
@@ -35,5 +35,5 @@ document.getElementById("submitButton").onclick = function sendMail() {
 			phone +
 			" <br> Mesaj : " +
 			message,
-	}).then(() => alert("mail gönderildi"));
+	}).then(() => alert("mail gönderildi")); //bu kısım düzeltilecek
 };
