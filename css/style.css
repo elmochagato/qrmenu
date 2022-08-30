@@ -400,8 +400,7 @@ a {
 
 	.nav-menu {
 		position: fixed;
-		left: -100%;
-		top: 70px;
+		left: 100%;
 		gap: 0;
 		flex-direction: column;
 		background-color: rgb(143, 103, 103);
