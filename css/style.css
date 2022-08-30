@@ -340,6 +340,7 @@ a {
 	text-align: justify;
 	font-size: 1.25rem;
 	font-weight: 500;
+	font-family: "Barlow", Georgia, serif;
 }
 
 .navbar {
@@ -409,7 +410,7 @@ a {
 		width: 100%;
 		text-align: center;
 		transition: all 0.3s ease-in-out;
-		height: 100vh;
+		height: 100%;
 		display: block;
 		z-index: 1;
 	}
@@ -421,7 +422,7 @@ a {
 		padding: 0%;
 		line-height: 1.5rem;
 		text-align: justify;
-		font-family: "Barlow Condensed", Georgia, serif;
+		font-family: "Barlow", Georgia, serif;
 		font-size: 1.5rem;
 		font-weight: 800;
 		
@@ -430,7 +431,7 @@ a {
 	.nav-menu.active {
 		left: 50%;
 		display: block;
-		height: 100vh;
+		height: 100%;
 		width: 100%;
 	}
 }
