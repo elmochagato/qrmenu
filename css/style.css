@@ -399,8 +399,7 @@ a {
 
 	.nav-menu {
 		position: fixed;
-		left: -100%;
-		top: 70px;
+		left: 100%;
 		gap: 0;
 		flex-direction: column-reverse;
 		background-color: #ba746c;
@@ -408,6 +407,7 @@ a {
 		width: 100%;
 		text-align: center;
 		transition: 0.3s;
+		height: 100%;
 	}
 
 	.nav-item {
