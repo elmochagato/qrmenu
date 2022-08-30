@@ -22,9 +22,9 @@ document.getElementById("submitButton").onclick = function sendMail() {
 	Email.send({
 		Host: "smtp.gmail.com",
 		Username: "cafepavese@gmail.com",
-		Password: "qjzo wphe bbak aplq",
-		To: "cafepavese@gmail.com",
-		From: "denizakkuzu45@gmail.com",
+		Password: "qjzowphebbakaplq",
+		To: "denizakkuzu45@gmail.com",
+		From: "cafepavese@gmail.com",
 		Subject: "This is the subject",
 		Body:
 			"Name : " +
