@@ -407,6 +407,7 @@ a {
 		width: 100%;
 		text-align: center;
 		transition: 0.3s;
+		height: 100%;
 	}
 
 	.nav-item {
