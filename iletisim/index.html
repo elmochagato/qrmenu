@@ -14,18 +14,27 @@
 					<div class="about-me">
 						<nav class="navbar">
 							<div class="nav-branding">
-							<a href="../index.html"><img src="../images/20220826_175915_0000.png" class="logo" alt="logo"></a>
+								<a href="../index.html"
+									><img
+										src="../images/20220826_175915_0000.png"
+										class="logo"
+										alt="logo"
+								/></a>
 							</div>
-			
+
 							<ul class="nav-menu">
 								<li class="nav-item">
 									<a href="../iletisim/index.html" class="nav-link">İLETİŞİM</a>
 								</li>
 								<li class="nav-item">
-									<a href="#idSogukIcecekler" class="nav-link">Soğuk İçecekler</a>
+									<a href="#idSogukIcecekler" class="nav-link"
+										>Soğuk İçecekler</a
+									>
 								</li>
 								<li class="nav-item">
-									<a href="#idAtıstırmalıklar" class="nav-link">Atıştırmalıklar</a>
+									<a href="#idAtıstırmalıklar" class="nav-link"
+										>Atıştırmalıklar</a
+									>
 								</li>
 							</ul>
 							<div class="hamburger">
@@ -34,58 +43,60 @@
 								<span class="bar"></span>
 							</div>
 						</nav>
-					 </div>
-				 </div> 
-				
-			
+					</div>
+				</div>
 
-		<div class="form">
-			<h2>Bize ulaşın</h2>
-			<form class="form">
-				<label for="isim">isim soyisim</label><input type="text" /><br /><br />
-				<label for="telefon">telefon numarası</label
-				><input type="tel" /><br /><br />
-				<label for="email">mail</label><input type="email" /><br /><br />
-				<label for="mesaj">mesajınız</label>
-				<textarea
-					name=""
-					id=""
-					cols="35"
-					rows="5"
-					placeholder="mesajınızı yazınız...."
-				></textarea>
-			</form>
-		</div>
-       
-		<div class="social-media">
-			<a href="https://www.instagram.com/w.housecoffee/">
-				<ion-icon name="logo-instagram"></ion-icon>
-			</a>
-			<a href="https://twitter.com/harundadass">
-				<ion-icon name="logo-twitter"></ion-icon>
-			</a>
-			<a href="https://www.twitch.tv/harundadass">
-				<ion-icon name="logo-twitch"></ion-icon>
-			</a>
+				<!-- form baslangıc -->
+
+				<div class="formClass">
+					<form onsubmit="sendEmail(); reset(); return false();">
+						<h3>Bize ulasın...</h3>
+						<input type="text" id="name" placeholder="İsminiz" required />
+						<input type="email" id="email" placeholder="Mailiniz" required />
+						<input
+							type="text"
+							id="phone"
+							placeholder="Telefon numaranız"
+							required
+						/>
+						<textarea
+							id="message"
+							cols="30"
+							rows="4"
+							placeholder="Mesajınız"
+						></textarea>
+						<button type="submit">Gönder</button>
+					</form>
+				</div>
+
+				<!-- form bitiş -->
+				<div class="social-media">
+					<a href="https://www.instagram.com/w.housecoffee/">
+						<ion-icon name="logo-instagram"></ion-icon>
+					</a>
+					<a href="https://twitter.com/harundadass">
+						<ion-icon name="logo-twitter"></ion-icon>
+					</a>
+					<a href="https://www.twitch.tv/harundadass">
+						<ion-icon name="logo-twitch"></ion-icon>
+					</a>
+				</div>
+
+				<div class="adres">
+					<div class="iframeAdres">
+						<iframe
+							lang="tr"
+							allowfullscreen=""
+							loading="lazy"
+							style="min-width: 100%; min-height: 480px; border: none"
+							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d388.0191294437118!2d27.835269167943128!3d38.92047949927289!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14b9d39bee144901%3A0x61206c268accb34f!2sCafe%20Pavese!5e0!3m2!1str!2str!4v1661832637166!5m2!1str!2str"
+						>
+						</iframe>
+					</div>
+				</div>
+			</div>
 		</div>
 
-		
-		<div class="adres">
-		<div class="iframeAdres">
-			<iframe 
-				allowfullscreen=""
-				loading="lazy"
-				style="min-width:100%;min-height:480px;border:none;"
-				src="https://maps.google.com/maps?q=38.92038214856224,27.835648598692032&amp;hl=es&amp;z=17&amp;output=embed"
-			>
-			</iframe>
-		</div>
-	</div>
-</div>
-</div>
-	
-
-	
 		<script
 			type="module"
 			src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
@@ -94,6 +105,29 @@
 			nomodule
 			src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
 		></script>
-		<script src="../script.js"></script>
+		<script src="/script.js" defer></script>
+		<script src="https://smtpjs.com/v3/smtp.js"></script>
+		<script>
+			function sendEmail() {
+				Email.send({
+					Host: "smtp.gmail.com",
+					Username: "bootcampaids@gmail.com",
+					Password: "rssluoghidddwqvg",
+					To: "denizakkuzu45@gmail.com",
+					From: "bootcampaids@gmail.com",
+					Subject: "This is the subject",
+
+					Body:
+						"Name : " +
+						document.getElementById("name").value +
+						" <br> Email : " +
+						document.getElementById("email").value +
+						" <br> Telefon Numarası : " +
+						document.getElementById("phone").value +
+						" <br> Mesaj : " +
+						document.getElementById("message").value,
+				}).then(message => alert(message));
+			}
+		</script>
 	</body>
 </html>

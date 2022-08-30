@@ -4,7 +4,7 @@ DENIZ iletişimi düzelttim ama senin barı bir güzel bozdum kanka yapmam gerek
 
 menu
 
-Sevgili özgüç .... qçwçdöqwöçdQ:Wdqöwfqfqpwd
+Sevgili özgüç ....
 
 todo list oluşturulacak
 
