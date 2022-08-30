@@ -1,11 +1,6 @@
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
 
-const namee = document.getElementById("name").value;
-const email = document.getElementById("email").value;
-const phone = document.getElementById("phone").value;
-const message = document.getElementById("message").value;
-
 hamburger.addEventListener("click", () => {
 	hamburger.classList.toggle("active");
 	navMenu.classList.toggle("active");
@@ -17,6 +12,17 @@ document.querySelectorAll(".nav-link").forEach(n =>
 		navMenu.classList.remove("active");
 	})
 );
+
+
+/* ayrı kalsınlar
+*/
+
+
+const namee = document.getElementById("name").value;
+const email = document.getElementById("email").value;
+const phone = document.getElementById("phone").value;
+const message = document.getElementById("message").value;
+
 
 document.getElementById("submitButton").onclick = function sendMail() {
 	Email.send({
