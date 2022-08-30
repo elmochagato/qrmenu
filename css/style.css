@@ -429,7 +429,7 @@ a {
 		height: 100%;
 		display: block;
 		z-index: 1;
-		box-shadow: 2px 2px 6px rgba(0, 0, 0, 1);;
+		box-shadow: 2px 2px 50px rgba(0, 0, 0, .6);
 	}
 
 	.nav-item {
