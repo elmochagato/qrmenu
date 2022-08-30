@@ -424,7 +424,6 @@ a {
 		font-family: "Barlow Condensed", Georgia, serif;
 		font-size: 1.5rem;
 		font-weight: 800;
-		
 	}
 
 	.nav-menu.active {
@@ -665,7 +664,7 @@ ion-icon {
 
 .formClass {
 	width: 100%;
-	height: 50vh; /* 100 de olabilir düşünülecek*/
+	height: 75vh;
 	background: #da6767;
 	display: flex;
 	align-items: center;

@@ -1,8 +1,3 @@
-BURASI YAPILACAKLAR OLSUN
-
-google'a cafe eklenecek
-
-form boyutu düzeltilecek
 cafenin telefon numarası benim amk onu değiştirecem
 map addevent ile eklenecek
 smtp düzeltilecek

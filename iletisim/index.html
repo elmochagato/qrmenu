@@ -49,7 +49,7 @@
 				<!-- form baslangıc -->
 
 				<div class="formClass">
-					<form onsubmit="sendEmail(); reset(); return false();">
+					<form>
 						<h3>Bize ulasın...</h3>
 						<input type="text" id="name" placeholder="İsminiz" required />
 						<input type="email" id="email" placeholder="Mailiniz" required />
@@ -65,7 +65,7 @@
 							rows="4"
 							placeholder="Mesajınız"
 						></textarea>
-						<button type="submit">Gönder</button>
+						<button id="submitButton" type="submit">gonder</button>
 					</form>
 				</div>
 
@@ -105,29 +105,7 @@
 			nomodule
 			src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
 		></script>
-		<script src="/script.js" defer></script>
 		<script src="https://smtpjs.com/v3/smtp.js"></script>
-		<script>
-			function sendEmail() {
-				Email.send({
-					Host: "smtp.gmail.com",
-					Username: "bootcampaids@gmail.com",
-					Password: "rssluoghidddwqvg",
-					To: "denizakkuzu45@gmail.com",
-					From: "bootcampaids@gmail.com",
-					Subject: "This is the subject",
-
-					Body:
-						"Name : " +
-						document.getElementById("name").value +
-						" <br> Email : " +
-						document.getElementById("email").value +
-						" <br> Telefon Numarası : " +
-						document.getElementById("phone").value +
-						" <br> Mesaj : " +
-						document.getElementById("message").value,
-				}).then(message => alert(message));
-			}
-		</script>
+		<script src="/script.js"></script>
 	</body>
 </html>
