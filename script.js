@@ -35,5 +35,5 @@ document.getElementById("submitButton").onclick = function sendMail() {
 			phone +
 			" <br> Mesaj : " +
 			message,
-	}).then(message => alert("mail gönderildi"));
+	}).then(() => alert("mail gönderildi"));
 };
