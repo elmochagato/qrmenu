@@ -607,6 +607,7 @@ form textarea {
 	font-weight: 500;
 	line-height: 1.2;
 	color: rgb(0, 0, 0);
+	resize: none;
 }
 
 form button {
