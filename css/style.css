@@ -338,9 +338,9 @@ a {
 	color: rgb(8, 7, 7);
 	text-decoration: none;
 	text-align: justify;
-	font-size: 1.5em;
-	font-family: "Barlow", Georgia, serif;
-	font-weight: 600;
+	font-size: 1.8em;
+	font-family: "Barlow Condensed", Georgia, serif;
+	font-weight: 500;
 }
 
 .navbar {
@@ -440,7 +440,6 @@ a {
 		padding: 0%;
 		line-height: 1.5rem;
 		text-align: justify;
-		
 	}
 
 	.nav-menu.active {
@@ -484,7 +483,7 @@ Deneme yapıyorum silinebilirler.
 	-webkit-tap-highlight-color: transparent;
 	-webkit-text-size-adjust: 100%;
 	-webkit-font-smoothing: antialiased;
-	font-family: "Open Sans", sans-serif;
+	font-family: "Barlow", sans-serif;
 	color: #666;
 	font-size: 14px;
 	line-height: 1.75em;
@@ -570,38 +569,71 @@ A
 }
 
 form {
-	background: rgb(138, 0, 0);
+	box-shadow: rgb(112 112 112 / 16%) 0px 10px 16px 0px;
+	background-color: rgb(255, 255, 255);
 	display: flex;
 	flex-direction: column;
 	padding: 2vw 4vw;
 	width: 90%;
 	max-width: 600px;
-	border-radius: 10px;
+	border-radius: 20px;
+	border: 2px solid #800000;
+	margin: auto;
+	margin-top: 1em;
 }
 
 form h3 {
-	color: #555;
-	font-weight: 800;
+	opacity: 0.5;
+	font-family: "Barlow", Georgia, serif;
+	font-size: 1.5em;
+	font-weight: 700;
+	line-height: 1.2;
+	color: rgb(17, 18, 34);
 	margin-bottom: 20px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	flex-direction: row;
+	justify-content: center;
 }
 form input,
 form textarea {
-	border: 0;
+	border: 1px solid #800000;
 	margin: 10px 0;
 	outline: none;
-	background: #f5f5f5;
-	font-size: 16px;
+	background: rgb(112 112 112 / 10%);
+	font-family: "Barlow", Georgia, serif;
+	font-size: 1.5em;
+	font-weight: 500;
+	line-height: 1.2;
+	color: rgb(0, 0, 0);
 }
 
 form button {
 	padding: 15px;
-	background: #ff5361;
+	background: rgba(128, 0, 0, 1);
 	color: #fff;
-	font-size: 18px;
+	font-size: 1.2em;
 	border: 0;
 	outline: none;
 	cursor: pointer;
 	width: 150px;
 	margin: 20px auto 0;
 	border-radius: 30px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	flex-direction: row;
+	justify-content: center;
+	font-family: "Barlow", Georgia, serif;
+}
+
+
+@media (max-height: 500px) {
+	.formClass {
+     display: flex;
+	 margin-left: auto;
+	 align-self: center;
+	 margin-top: 2em;
+	}
 }
