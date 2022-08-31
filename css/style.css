@@ -631,7 +631,7 @@ form button {
 
 @media (max-height: 500px) {
 	.formClass {
-     display: flex;
+         display: flex;
 	 margin-left: auto;
 	 align-self: center;
 	 margin-top: 2em;
