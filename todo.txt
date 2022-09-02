@@ -2,5 +2,4 @@ cafenin telefon numarası benim amk onu değiştirecem
 map addevent ile eklenecek
 smtp düzeltilecek
 
-
-
+galeri mobil için düzeltilecek

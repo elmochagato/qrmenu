@@ -1,3 +1,5 @@
+// burger
+
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
 
@@ -13,16 +15,12 @@ document.querySelectorAll(".nav-link").forEach(n =>
 	})
 );
 
-
-/* ayrı kalsınlar
-*/
-
+// form
 
 const namee = document.getElementById("name").value;
 const email = document.getElementById("email").value;
 const phone = document.getElementById("phone").value;
 const message = document.getElementById("message").value;
-
 
 document.getElementById("submitButton").onclick = function sendMail() {
 	Email.send({
