@@ -678,7 +678,7 @@ form button {
 }
 
 .media:hover .layer {
-	opacity: 0.8;
+	opacity: 1;
 	width: 80%;
 	transition: all 0.4s ease-in-out;
 }
