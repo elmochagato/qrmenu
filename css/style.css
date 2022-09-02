@@ -337,7 +337,7 @@ a {
 	text-decoration: none;
 	text-align: justify;
 	font-size: 1.8em;
-	font-family: "Barlow Condensed", Georgia, serif;
+	font-family: 'Barlow Condensed', sans-serif;
 	font-weight: 500;
 }
 
@@ -467,7 +467,7 @@ a {
 	-webkit-tap-highlight-color: transparent;
 	-webkit-text-size-adjust: 100%;
 	-webkit-font-smoothing: antialiased;
-	font-family: "Barlow", sans-serif;
+	font-family: 'Barlow', sans-serif;
 	color: #666;
 	font-size: 14px;
 	line-height: 1.75em;
@@ -564,7 +564,7 @@ form {
 
 form h3 {
 	opacity: 0.5;
-	font-family: "Barlow", Georgia, serif;
+	font-family: 'Barlow', sans-serif;
 	font-size: 1.5em;
 	font-weight: 700;
 	line-height: 1.2;
@@ -591,14 +591,14 @@ form textarea {
 }
 
 form button {
-	padding: 15px;
+	padding: 0.75em;
 	background: rgba(128, 0, 0, 1);
 	color: #fff;
 	font-size: 1.2em;
 	border: 0;
 	outline: none;
 	cursor: pointer;
-	width: 150px;
+	width: 8em;
 	margin: 20px auto 0;
 	border-radius: 30px;
 	display: flex;
@@ -606,7 +606,7 @@ form button {
 	text-align: center;
 	flex-direction: row;
 	justify-content: center;
-	font-family: "Barlow", Georgia, serif;
+	font-family: 'Barlow', sans-serif;
 }
 
 @media (max-height: 500px) {
@@ -661,9 +661,14 @@ form button {
 }
 
 .pgaleri {
-	font-family: "Inconsolata", monospace;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	font-family: 'Barlow Condensed', sans-serif;
 	font-size: 20px;
-	font-weight: 800;
+	font-weight: 600;
 	letter-spacing: 1px;
 	line-height: 1.5em;
 	position: absolute;
@@ -726,7 +731,7 @@ form button {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	width: 90%;
+	width: 100%;
 	height: 100%;
 	}
 }
