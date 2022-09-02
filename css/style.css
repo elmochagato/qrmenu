@@ -652,7 +652,7 @@ form button {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 100%;
+	width: 10px;
 	height: 100%;
 	background: #fff;
 	color: #151e3f;
@@ -663,6 +663,7 @@ form button {
 .pgaleri {
 	font-family: "Inconsolata", monospace;
 	font-size: 20px;
+	font-weight: 800;
 	letter-spacing: 1px;
 	line-height: 1.5em;
 	position: absolute;
@@ -673,8 +674,8 @@ form button {
 
 .media:hover .layer {
 	opacity: 0.8;
-	width: 100%;
-	transition: all 0.5s ease;
+	width: 80%;
+	transition: all 0.4s ease-in-out;
 }
 
 
@@ -692,11 +693,6 @@ form button {
 
 
 .tablo-img{
-	-webkit-filter: blur(0);
-	filter: blur(0);
-	transition: -webkit-filter 0.3s;
-	transition: filter 0.3s;
-	transition: filter 0.3s, -webkit-filter 0.3s;
 	display: flex !important;
     flex: 1 1 auto;
 	width: 40em;
