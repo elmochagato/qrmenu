@@ -262,13 +262,6 @@ video {
 .menus-img {
   color: transparent;
   display: inline-block;
-  flex-shrink: 0;
-  border-radius: 20px;
-  box-shadow: rgb(112 112 112 / 8%) 0px 10px 16px 0px;
-  object-fit: cover;
-  width: 120px;
-  height: 120px;
-  min-width: 120px;
 }
 
 .icecek-resim {
@@ -277,7 +270,7 @@ video {
   box-shadow: rgb(112 112 112 / 8%) 0px 10px 16px 0px;
   object-fit: cover;
   width: 120px;
-  height: 120px;
+  height: 100%;
   min-width: 120px;
 }
 
