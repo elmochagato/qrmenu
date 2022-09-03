@@ -350,7 +350,7 @@ a {
   text-align: justify;
   font-size: 1.8em;
   font-family: "Barlow Condensed", sans-serif;
-  font-weight: 500;
+  font-weight: 800;
 }
 
 .navbar {
@@ -416,7 +416,7 @@ a {
   .nav-menu {
    position: fixed;
   left: 100%;
-  top: -1em;
+  top: 5.8em;
   gap: 0;
    flex-direction: column;
   --u: 20px;
@@ -468,20 +468,19 @@ a {
     height: 100%;
     display: block;
     z-index: 1;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
   }
 
   .nav-item {
-    margin-top: 30vw;
-    margin-right: 50vw;
-    margin-bottom: -20vw;
+    margin-top: 10vw;
+    margin-left: -2vw;
     padding: 0%;
-    line-height: 1.5rem;
+    line-height: 1rem;
     text-align: justify;
   }
 
   .nav-menu.active {
-    left: 50%;
+    left: 55%;
     display: block;
     height: 100%;
     width: 100%;
@@ -569,12 +568,6 @@ ion-icon {
 @media (max-height: 768px) {
   .form {
     margin-top: 10vw;
-  }
-}
-
-@media (max-height: 500px) {
-  .about-me {
-    max-height: 32vw;
   }
 }
 
