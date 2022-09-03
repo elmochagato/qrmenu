@@ -4,9 +4,12 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;600&family=Barlow:wght@300;400;600;700&family=Inconsolata:wght@300;400;500&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;600&family=Barlow:wght@300;400;600;700&family=Inconsolata:wght@300;400;500&family=Roboto:wght@300;400;500&display=swap"
+			rel="stylesheet"
+		/>
 		<title>Café Pavese İletişim</title>
 		<link rel="stylesheet" href="../css/style.css" />
 	</head>
@@ -45,7 +48,10 @@
 				<!-- form baslangıc -->
 
 				<div class="formClass">
-					<form>
+					<form
+						action="https://getform.io/f/6332f810-d669-4c51-8c0e-de2d610816fe"
+						method="POST"
+					>
 						<h3>Bize Ulaşın</h3>
 						<input type="text" id="name" placeholder="İsminiz" required />
 						<input type="email" id="email" placeholder="Mailiniz" required />
@@ -61,6 +67,8 @@
 							rows="3"
 							placeholder="Mesajınız"
 						></textarea>
+						<input type="checkbox" name="subscribe" value="yes" checked />
+						<input type="hidden" name="subscribe" value="no" />
 						<button id="submitButton" type="submit">Gönder</button>
 					</form>
 				</div>
@@ -101,7 +109,6 @@
 			nomodule
 			src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
 		></script>
-		<script src="https://smtpjs.com/v3/smtp.js"></script>
 		<script src="../script.js"></script>
 	</body>
 </html>
