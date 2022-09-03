@@ -21,7 +21,7 @@ let sicakIcecekler = [
   {
     isim: "Çay1",
     fiyat: 1 + " ₺",
-    icerik: "çay ve sıcak su",
+    icerik: "çay ve sıcak su çay ve sıcak su çay ve sıcak su çay ve sıcak su",
     resim: "./images/Turkish_tea2.jpg",
   },
   {
@@ -50,13 +50,13 @@ for (let icecek of sicakIcecekler) {
   let sicakIceceklerEkleme = `
 <div  class="icecekler">
 <div  class="cay">
-	<span class="cay-img">
-		<img src="${icecek.resim}" alt="${icecek.isim}">
-	</span>
+<span class="menus menus-img">
+<img src="${icecek.resim}" alt="${icecek.isim}" class="icecek-resim">
+</span>
 </div>
-<div class="menus product-description-price">
+<div class="product-description-price">
 	<span class="product">${icecek.isim}</span>
-		<div class="descripton">${icecek.icerik}</div>
+		<div class="description">${icecek.icerik}</div>
 			<div class="price">${icecek.fiyat}</div>
 </div>
 </div>`;
@@ -99,13 +99,13 @@ for (let icecek of sogukIcecekler) {
   let sogukIceceklerEkleme = `
 	<div  class="icecekler">
 	<div  class="cay">
-		<span class="cay-img">
-			<img src="${icecek.resim}" alt="${icecek.isim}">
-		</span>
+  <span class="menus menus-img">
+  <img src="${icecek.resim}" alt="${icecek.isim}" class="icecek-resim">
+</span>
 	</div>
-	<div class="menus product-description-price">
+	<div class="product-description-price">
 		<span class="product">${icecek.isim}</span>
-			<div class="descripton">${icecek.icerik}</div>
+			<div class="description">${icecek.icerik}</div>
 				<div class="price">${icecek.fiyat}</div>
 	</div>
 	</div>`;
@@ -148,13 +148,13 @@ for (let icecek of atıstırmalıkMenu) {
   let atıstırmalıkMenuEkleme = `
 	<div  class="icecekler">
 	<div  class="cay">
-		<span class="cay-img">
-			<img src="${icecek.resim}" alt="${icecek.isim}">
-		</span>
+  <span class="menus menus-img">
+  <img src="${icecek.resim}" alt="${icecek.isim}" class="icecek-resim">
+</span>
 	</div>
-	<div class="menus product-description-price">
+	<div class="product-description-price">
 		<span class="product">${icecek.isim}</span>
-			<div class="descripton">${icecek.icerik}</div>
+			<div class="description">${icecek.icerik}</div>
 				<div class="price">${icecek.fiyat}</div>
 	</div>
 	</div>`;
