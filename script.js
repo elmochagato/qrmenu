@@ -15,7 +15,7 @@ document.querySelectorAll(".nav-link").forEach(n =>
 	})
 );
 
-
+// sicak menu
 "use strict";
 let sicakIcecekler = [
 	{"alt":"Çay1","fiyat":1},
