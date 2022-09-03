@@ -289,7 +289,7 @@ video {
 	--c1: #a29478;
 	--c2: #616c7f;
 	--c3: #414c66;
-	--gp: 1px 90%/ calc(var(--u) * 10) calc(var(--u) * 7.8);
+	--gp: 0 80%/ calc(var(--u) * 10) calc(var(--u) * 7.8);
 	--dg: 0 25%, #fff0 0 100%;
 	--dr: from 45deg at;
 	--dl: from -135deg at;
@@ -423,7 +423,7 @@ a {
 	--c1: #a29478;
 	--c2: #616c7f;
 	--c3: #414c66;
-	--gp: -6.8px 100%/ calc(var(--u) * 10 ) calc(var(--u) * 7.8);
+	--gp: 50%/ calc(var(--u) * 10 ) calc(var(--u) * 7.8);
 	--dg: 0 25%, #fff0 0 0%;
 	--dr: from 45deg at;
 	--dl: from -135deg at;
