@@ -18,10 +18,10 @@ document.querySelectorAll(".nav-link").forEach(n =>
 // sicak menu
 "use strict";
 let sicakIcecekler = [
-	{"isim":"Çay1","fiyat":1+" ₺","icerik":"çay ve sıcak su"},
-	{"isim":"Çay2","fiyat":2+" ₺","icerik":"çay ve sıcak su"},
-	{"isim":"Çay3","fiyat":3+" ₺","icerik":"çay ve sıcak su"},
-	{"isim":"Çay4","fiyat":4+" ₺","icerik":"çay ve sıcak su"},
+	{"isim":"Çay1","fiyat":1+" ₺","icerik":"çay ve sıcak su","resim":"./images/Turkish_tea2.jpg"},
+	{"isim":"Çay2","fiyat":2+" ₺","icerik":"çay ve sıcak su","resim":"./images/Turkish_tea2.jpg"},
+	{"isim":"Çay3","fiyat":3+" ₺","icerik":"çay ve sıcak su","resim":"./images/Turkish_tea2.jpg"},
+	{"isim":"Çay4","fiyat":4+" ₺","icerik":"çay ve sıcak su","resim":"./images/Turkish_tea2.jpg"},
 ]
 
 let sicakMenu = document.getElementById("sıcak-menu");
@@ -32,7 +32,7 @@ let sicakIceceklerEkleme =  `
 <div  class="icecekler">
 <div  class="cay">
 	<span class="cay-img">
-		<img src="./images/Turkish_tea2.jpg" alt="${icecek.isim}">
+		<img src="${icecek.resim}" alt="${icecek.isim}">
 	</span>
 </div>
 <div class="menus product-description-price">
