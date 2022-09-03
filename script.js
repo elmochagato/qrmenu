@@ -47,8 +47,13 @@ let sicakIcecekler = [
 let sicakMenu = document.getElementById("sıcak-menu");
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 for(let icecek of sicakIcecekler){
 let sicakIceceklerEkleme =  `
+=======
+for (let icecek of sicakIcecekler) {
+  let sicakIceceklerEkleme = `
+>>>>>>> cb1b846250d0ea82680f644f989aef72e3dceed7
 =======
 for (let icecek of sicakIcecekler) {
   let sicakIceceklerEkleme = `
