@@ -18,10 +18,10 @@ document.querySelectorAll(".nav-link").forEach(n =>
 // sicak menu
 "use strict";
 let sicakIcecekler = [
-	{"alt":"Çay1","fiyat":1},
-	{"alt":"Çay2","fiyat":2},
-	{"alt":"Çay3","fiyat":3},
-	{"alt":"Çay4","fiyat":4},
+	{"isim":"Çay1","fiyat":1+" ₺","icerik":"çay ve sıcak su"},
+	{"isim":"Çay2","fiyat":2+" ₺","icerik":"çay ve sıcak su"},
+	{"isim":"Çay3","fiyat":3+" ₺","icerik":"çay ve sıcak su"},
+	{"isim":"Çay4","fiyat":4+" ₺","icerik":"çay ve sıcak su"},
 ]
 
 let sicakMenu = document.getElementById("sıcak-menu");
@@ -32,12 +32,12 @@ let sicakIceceklerEkleme =  `
 <div  class="icecekler">
 <div  class="cay">
 	<span class="cay-img">
-		<img src="./images/Turkish_tea2.jpg" alt="${icecek.alt}">
+		<img src="./images/Turkish_tea2.jpg" alt="${icecek.isim}">
 	</span>
 </div>
 <div class="menus product-description-price">
-	<span class="product">${icecek.alt}</span>
-		<div class="descripton">Şu amk çayını 2dk sonra getirin</div>
+	<span class="product">${icecek.isim}</span>
+		<div class="descripton">${icecek.icerik}</div>
 			<div class="price">${icecek.fiyat}</div>
 </div>
 </div>`;
