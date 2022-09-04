@@ -112,7 +112,7 @@ select {
   scroll-margin: 302px;
 }
 
-@media (max-width:350px){
+@media (max-width: 350px) {
   .kartlar {
     margin-top: 90px;
   }
@@ -238,7 +238,6 @@ video {
   height: auto;
 }
 
-
 .menus {
   display: flex !important;
   flex: 1 1 auto;
@@ -271,48 +270,45 @@ video {
   max-height: 110px;
   z-index: 1;
   --u: 20px;
-	--c1: #a29478;
-	--c2: #616c7f;
-	--c3: #414c66;
-	--gp: 0 80%/ calc(var(--u) * 10) calc(var(--u) * 7.8);
-	--dg: 0 25%, #fff0 0 100%;
-	--dr: from 45deg at;
-	--dl: from -135deg at;
-	--du: from -45deg at 50%;
-	--dd: from 135deg at 50%;
-	background: 
-		/*right*/
-  conic-gradient(var(--dr) 86% 62%, var(--c1) var(--dg)) var(--gp),
-  conic-gradient(var(--dr) 76% 62%, var(--c3) var(--dg)) var(--gp),
-  conic-gradient(var(--dr) 74.5% 62%, var(--c1) var(--dg)) var(--gp),
-  conic-gradient(var(--dr) 65% 62%, var(--c2) var(--dg)) var(--gp),
-  conic-gradient(var(--dr) 63.5% 62%, var(--c1) var(--dg)) var(--gp),
-  conic-gradient(var(--dr) 56% 62%, var(--c3) var(--dg)) var(--gp),
-  conic-gradient(var(--dr) 54.5% 62%, var(--c1) var(--dg)) var(--gp),
-  conic-gradient(var(--dr) 50% 62%, var(--c2) var(--dg)) var(--gp),
-  /*left*/
-  conic-gradient(var(--dl) 14% 62%, var(--c1) var(--dg)) var(--gp),
-  conic-gradient(var(--dl) 24% 62%, var(--c3) var(--dg)) var(--gp),
-  conic-gradient(var(--dl) 25.5% 62%, var(--c1) var(--dg)) var(--gp),
-  conic-gradient(var(--dl) 35% 62%, var(--c2) var(--dg)) var(--gp),
-  conic-gradient(var(--dl) 36.5% 62%, var(--c1) var(--dg)) var(--gp),
-  conic-gradient(var(--dl) 44% 62%, var(--c3) var(--dg)) var(--gp),
-  conic-gradient(var(--dl) 45.5% 62%, var(--c1) var(--dg)) var(--gp),
-  conic-gradient(var(--dl) 50% 62%, var(--c2) var(--dg)) var(--gp),
-  /*up*/
-  conic-gradient(var(--du) 19%, var(--c1) var(--dg)) var(--gp),
-  conic-gradient(var(--du) 31%, var(--c3) var(--dg)) var(--gp),
-  conic-gradient(var(--du) 33%, var(--c1) var(--dg)) var(--gp),
-  conic-gradient(var(--du) 43.5%, var(--c2) var(--dg)) var(--gp),
-  conic-gradient(var(--du) 45.5%, var(--c1) var(--dg)) var(--gp),
-  conic-gradient(var(--du) 55%, var(--c3) var(--dg)) var(--gp),
-  conic-gradient(var(--du) 57%, var(--c1) var(--dg)) var(--gp),
-  conic-gradient(var(--du) 66%, var(--c2) var(--dg)) var(--gp),
-  /*down*/
-  conic-gradient(var(--dd) 81%, var(--c1) var(--dg)) var(--gp),
-  conic-gradient(var(--dd) 69%, var(--c3) var(--dg)) var(--gp),
-  conic-gradient(var(--dd) 67%, var(--c1) var(--dg)) var(--gp),
-  conic-gradient(var(--dd) 58%, var(--c2) var(--dg)) var(--gp);
+  --c1: #a29478;
+  --c2: #616c7f;
+  --c3: #414c66;
+  --gp: 0 80% / calc(var(--u) * 10) calc(var(--u) * 7.8);
+  --dg: 0 25%, #fff0 0 100%;
+  --dr: from 45deg at;
+  --dl: from -135deg at;
+  --du: from -45deg at 50%;
+  --dd: from 135deg at 50%;
+  background: 
+		/*right*/ conic-gradient(var(--dr) 86% 62%, var(--c1) var(--dg))
+      var(--gp),
+    conic-gradient(var(--dr) 76% 62%, var(--c3) var(--dg)) var(--gp),
+    conic-gradient(var(--dr) 74.5% 62%, var(--c1) var(--dg)) var(--gp),
+    conic-gradient(var(--dr) 65% 62%, var(--c2) var(--dg)) var(--gp),
+    conic-gradient(var(--dr) 63.5% 62%, var(--c1) var(--dg)) var(--gp),
+    conic-gradient(var(--dr) 56% 62%, var(--c3) var(--dg)) var(--gp),
+    conic-gradient(var(--dr) 54.5% 62%, var(--c1) var(--dg)) var(--gp),
+    conic-gradient(var(--dr) 50% 62%, var(--c2) var(--dg)) var(--gp),
+    /*left*/ conic-gradient(var(--dl) 14% 62%, var(--c1) var(--dg)) var(--gp),
+    conic-gradient(var(--dl) 24% 62%, var(--c3) var(--dg)) var(--gp),
+    conic-gradient(var(--dl) 25.5% 62%, var(--c1) var(--dg)) var(--gp),
+    conic-gradient(var(--dl) 35% 62%, var(--c2) var(--dg)) var(--gp),
+    conic-gradient(var(--dl) 36.5% 62%, var(--c1) var(--dg)) var(--gp),
+    conic-gradient(var(--dl) 44% 62%, var(--c3) var(--dg)) var(--gp),
+    conic-gradient(var(--dl) 45.5% 62%, var(--c1) var(--dg)) var(--gp),
+    conic-gradient(var(--dl) 50% 62%, var(--c2) var(--dg)) var(--gp),
+    /*up*/ conic-gradient(var(--du) 19%, var(--c1) var(--dg)) var(--gp),
+    conic-gradient(var(--du) 31%, var(--c3) var(--dg)) var(--gp),
+    conic-gradient(var(--du) 33%, var(--c1) var(--dg)) var(--gp),
+    conic-gradient(var(--du) 43.5%, var(--c2) var(--dg)) var(--gp),
+    conic-gradient(var(--du) 45.5%, var(--c1) var(--dg)) var(--gp),
+    conic-gradient(var(--du) 55%, var(--c3) var(--dg)) var(--gp),
+    conic-gradient(var(--du) 57%, var(--c1) var(--dg)) var(--gp),
+    conic-gradient(var(--du) 66%, var(--c2) var(--dg)) var(--gp),
+    /*down*/ conic-gradient(var(--dd) 81%, var(--c1) var(--dg)) var(--gp),
+    conic-gradient(var(--dd) 69%, var(--c3) var(--dg)) var(--gp),
+    conic-gradient(var(--dd) 67%, var(--c1) var(--dg)) var(--gp),
+    conic-gradient(var(--dd) 58%, var(--c2) var(--dg)) var(--gp);
 }
 
 .logo {
@@ -399,19 +395,19 @@ a {
   }
 
   .nav-menu {
-  position: fixed;
-  left: 100%;
-  top: 5.8em;
-  gap: 0;
-  flex-direction: column;
-  background: rgb(103, 47, 47);
-  width: 100%;
-  text-align: center;
-  transition:all 0.3s ease-in-out;
-   height: 100%;
-  display: block;
-  z-index: 3;
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+    position: fixed;
+    left: 100%;
+    top: 5.8em;
+    gap: 0;
+    flex-direction: column;
+    background: rgb(103, 47, 47);
+    width: 100%;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    height: 100%;
+    display: block;
+    z-index: 3;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
   }
 
   .nav-item {
@@ -476,7 +472,6 @@ ion-icon {
   }
 }
 
-
 @media (max-width: 768px) {
   .adres {
     max-width: 98%;
@@ -491,7 +486,6 @@ ion-icon {
   justify-content: center;
   gap: 8vw;
 }
-
 
 @media (max-height: 768px) {
   .form {
@@ -579,7 +573,6 @@ form button {
     margin-top: 2em;
     max-width: 100%;
     max-height: 100%;
-    
   }
 }
 
@@ -720,23 +713,23 @@ form button {
 }
 
 .scrolling-kartlar {
-    display: flex;
-    flex-direction: column;
-    -webkit-box-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    align-items: center;
-    flex-shrink: 0;
-    position: relative;
-    z-index: 1;
-    box-sizing: border-box;
-    width: 135px;
-    height: 44px;
-    padding: 0px 2.66vw;
-    border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.658);
-    backdrop-filter: blur(10px);
-    border: 2px solid rgb(146, 0, 0);
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  flex-shrink: 0;
+  position: relative;
+  z-index: 1;
+  box-sizing: border-box;
+  width: 135px;
+  height: 44px;
+  padding: 0px 2.66vw;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.658);
+  backdrop-filter: blur(10px);
+  border: 2px solid rgb(146, 0, 0);
 }
 
 .scrolling-text {
@@ -794,16 +787,14 @@ form button {
   color: rgb(255, 255, 255);
 }
 
-
-
-@media (max-height:680px) {
+@media (max-height: 680px) {
   .scrolling-tabs {
     top: 12vh;
   }
 }
 
-@media (max-width:350px) {
+@media (max-width: 350px) {
   .scrolling-tabs {
-    top: 15.75vh;
+    top: 17vh;
   }
 }
