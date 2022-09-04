@@ -790,9 +790,44 @@ form button {
   margin: 0px 1.33vw 0px 8vw;
 }
 
-.scrolling-tab > div {
+.scrolling-tabs > div {
   margin: 0px 1.33vw;
 }
+
+.scrolling-kartlar-active {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  flex-shrink: 0;
+  position: relative;
+  z-index: 3;
+  box-sizing: border-box;
+  width: 135px;
+  height: 50px;
+  padding: 0px 2.66vw;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(10px);
+  border: 2px solid rgb(146, 0, 0);
+}
+
+.scrolling-text-active {
+  font-family: "Barlow Condensed", Georgia, serif;
+  font-size: 1.1em;
+  line-height: 1.17;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  color: rgb(255, 255, 255);
+}
+
+
 
 @media (max-height:680px) {
   .scrolling-tabs {
