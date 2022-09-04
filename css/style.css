@@ -812,7 +812,7 @@ form button {
   z-index: 1;
   box-sizing: border-box;
   width: 135px;
-  height: 50px;
+  height: 44px;
   padding: 0px 2.66vw;
   border-radius: 10px;
   background-color: rgba(0, 0, 0, 0.8);
@@ -843,6 +843,6 @@ form button {
 
 @media (max-width:350px) {
   .scrolling-tabs {
-    top: 15vh;
+    top: 15.5vh;
   }
 }
