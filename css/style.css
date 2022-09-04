@@ -751,8 +751,6 @@ form button {
   overflow-x: scroll;
   padding: 35px 0px 25px;
   gap: 5vh;
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
 }
 .scrolling-tabs::-webkit-scrollbar {
   display: none;
