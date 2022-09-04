@@ -107,9 +107,15 @@ select {
   box-sizing: border-box;
   border: 0 solid #e2e8f0;
   flex-direction: column;
-  margin-top: 30px;
+  margin-top: 50px;
   width: 100%;
   scroll-margin: 302px;
+}
+
+@media (max-width:350px){
+  .kartlar {
+    margin-top: 90px;
+  }
 }
 
 .title {
@@ -446,7 +452,7 @@ a {
     transition: all 0.3s ease-in-out;
     height: 100%;
     display: block;
-    z-index: 1;
+    z-index: 3;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
   }
 
@@ -733,7 +739,7 @@ form button {
 /* Bu bar beni sikecek */
 /* Bu bar beni sikecek */
 .scrolling-tabs {
-  z-index: 2;
+  z-index: 1;
   top: 10vh;
   position: fixed;
   left: 0px;
@@ -761,7 +767,7 @@ form button {
     align-items: center;
     flex-shrink: 0;
     position: relative;
-    z-index: 3;
+    z-index: 1;
     box-sizing: border-box;
     width: 135px;
     height: 44px;
@@ -803,7 +809,7 @@ form button {
   align-items: center;
   flex-shrink: 0;
   position: relative;
-  z-index: 3;
+  z-index: 1;
   box-sizing: border-box;
   width: 135px;
   height: 50px;
@@ -831,6 +837,12 @@ form button {
 
 @media (max-height:680px) {
   .scrolling-tabs {
-    top: 13vh;
+    top: 12vh;
+  }
+}
+
+@media (max-width:350px) {
+  .scrolling-tabs {
+    top: 15vh;
   }
 }
