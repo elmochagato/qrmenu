@@ -232,7 +232,27 @@ video {
   height: auto;
 }
 
+.gn-note {
+  opacity: 0.4;
+  font-family: "Barlow Condensed", Georgia, serif;
+  font-size: 1rem;
+  color: rgb(17, 18, 34);
+  margin-bottom: 10px;
+}
 
+.scroller {
+  z-index: 2;
+  top: 8vh;
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  display: flex;
+  flex-direction: row;
+  -webkit-box-align: center;
+  align-items: center;
+  overflow-x: hidden;
+  padding: 35px 0px 25px;
+}
 
 .menus {
   display: flex !important;
@@ -527,23 +547,7 @@ ion-icon {
   gap: 8vw;
 }
 
-@media (max-height: 600px) {
-  .logo {
-    max-width: 100%;
-    max-height: 100%;
-    border: none;
-    padding: 0;
-  }
-}
 
-@media (max-height: 500px) {
-  .logo {
-    max-width: 100%;
-    max-height: 100%;
-    margin: auto;
-    padding: 0;
-  }
-}
 
 @media (max-height: 768px) {
   .form {
