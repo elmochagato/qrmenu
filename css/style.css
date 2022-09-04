@@ -449,7 +449,7 @@ a {
   conic-gradient(var(--dd) 58%, var(--c2) var(--dg)) var(--gp);
     width: 100%;
     text-align: center;
-    transition: all 0.3s ease-in-out;
+    transition:0.3s ease-in-out;
     height: 100%;
     display: block;
     z-index: 2;
