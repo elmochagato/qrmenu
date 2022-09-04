@@ -476,9 +476,11 @@ ion-icon {
   }
 }
 
+
 @media (max-width: 768px) {
   .adres {
-    max-width: 360px;
+    max-width: 98%;
+    max-height: 100%;
   }
 }
 
@@ -575,6 +577,9 @@ form button {
     margin-left: auto;
     align-self: center;
     margin-top: 2em;
+    max-width: 100%;
+    max-height: 100%;
+    
   }
 }
 
