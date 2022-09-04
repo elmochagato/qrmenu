@@ -92,4 +92,11 @@ for (let atistirma of atistirmaliklar) {
       </div>
     </div>`;
     atistirmaMenu.insertAdjacentHTML("beforeend", atistirmalikEkleme);
-  }
+  }   
+
+
+  //
+  //
+  /* Bu bar beni sikecek */
+/* Bu bar beni sikecek */
+/* Bu bar beni sikecek */
