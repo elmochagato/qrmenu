@@ -300,11 +300,11 @@ li {
 }
 
 a {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 0.8);
   text-decoration: none;
   text-align: justify;
-  font-size: 1.7em;
-  font-family: "Inconsolata", monospace;
+  font-size: 2.2em;
+  font-family: 'Oooh Baby', cursive;
   font-weight: 500;
 }
 
@@ -392,8 +392,8 @@ a {
     display: block;
     position: relative;
     left: 1vh;
-    top: 11vh;
-    margin-top: 6vh;
+    top: 14vh;
+    margin-top: 5vh;
     text-align: left;
   }
 
