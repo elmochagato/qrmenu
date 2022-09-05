@@ -684,7 +684,6 @@ form button {
   align-items: center;
   overflow-x: scroll;
   padding: 35px 0px 25px;
-  gap: 5vh;
 }
 .scrolling-tabs::-webkit-scrollbar {
   display: none;
