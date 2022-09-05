@@ -326,12 +326,12 @@ li {
 }
 
 a {
-  color: rgb(255, 255, 255);
+  color: rgba(255, 255, 255, 0.7);
   text-decoration: none;
   text-align: justify;
-  font-size: 1.8em;
-  font-family: "Barlow Condensed", sans-serif;
-  font-weight: 800;
+  font-size: 1.7em;
+  font-family: "Inconsolata", monospace;
+  font-weight: 500;
 }
 
 .navbar {
@@ -397,13 +397,16 @@ a {
   .nav-menu {
     position: fixed;
     left: 100%;
-    top: 5.8em;
+    top: -1em;
     gap: 0;
     flex-direction: column;
-    background: rgb(103, 47, 47);
+    background-image: url(../images/dont\ give\ up.png);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: 100% 100%; /* Resize the background image to cover the entire container */
     width: 100%;
     text-align: center;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.6s ease-in-out;
     height: 100%;
     display: block;
     z-index: 3;
@@ -411,22 +414,23 @@ a {
   }
 
   .nav-item {
-    margin-top: 10vw;
-    margin-left: -2vw;
-    padding: 0%;
-    line-height: 1rem;
-    text-align: justify;
+    justify-content: center;
+    display: block;
+    position: relative;
+    left: 1vh;
+    top: 11vh;
+    margin-top: 6vh;
+    text-align: left;
   }
 
   .nav-menu.active {
-    left: 55%;
+    left: 0%;
     display: block;
     height: 100%;
     width: 100%;
   }
 }
 
-@import url(https://fonts.googleapis.com/css?family=Roboto);
 /**/
 
 .adres {
@@ -457,7 +461,7 @@ h2 {
   font-size: 14px;
 }
 
-ion-icon {
+.icons {
   margin-top: 2rem;
   margin-left: 1px;
   color: rgb(103, 47, 47);
