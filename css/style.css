@@ -280,9 +280,9 @@ video {
   --du: from -45deg at 50%;
   --dd: from 135deg at 50%;
   background-image: url(../images/smoke.png);
-  background-position: center; 
-    background-repeat: no-repeat; 
-    background-size: 100% 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .logo {
@@ -304,7 +304,7 @@ a {
   text-decoration: none;
   text-align: justify;
   font-size: 2.2em;
-  font-family: 'Oooh Baby', cursive;
+  font-family: "Oooh Baby", cursive;
   font-weight: 500;
 }
 
@@ -722,6 +722,7 @@ form button {
   -webkit-box-orient: vertical;
   opacity: 0.7;
   color: rgb(17, 18, 34);
+  cursor: pointer;
 }
 
 .scrolling-tabs > div:first-child {
