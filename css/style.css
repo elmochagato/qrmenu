@@ -732,7 +732,7 @@ form button {
   margin: 0px 1.33vw;
 }
 
-.scrolling-kartlar-active {
+.scrolling-kartlar.active {
   display: flex;
   flex-direction: column;
   -webkit-box-pack: center;
@@ -753,7 +753,7 @@ form button {
   cursor: pointer;
 }
 
-.scrolling-text-active {
+.scrolling-text.active {
   font-family: "Barlow Condensed", Georgia, serif;
   font-size: 1.1em;
   line-height: 1.17;
