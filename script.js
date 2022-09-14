@@ -102,7 +102,7 @@ for (let atistirma of atistirmaliklar) {
 var btnContainer = document.getElementById("scrt");
 
 // Get all buttons with class="btn" inside the container
-var btns = btnContainer.getElementsByClassName("scrolling-kartlar");
+var btns = btnContainer.getElementsByClassName("scrolling-kartlar","scrolling-text");
 
 // Loop through the buttons and add the active class to the current/clicked button
 for (var i = 0; i < btns.length; i++) {
@@ -118,9 +118,3 @@ for (var i = 0; i < btns.length; i++) {
     this.className += " active";
   });
 }
-
-
-
-
-
-
